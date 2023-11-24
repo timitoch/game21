@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>пр 9</title>
+</head>
+<body>  
+  <h1>Гра "21"</h1>  
+  <div id="game">
+      <div id="usernamediv">
+        <h2><span id="userName"></span></h2>
+        <div id="user">
+
+          <img id="userCardImage" src="зад.png" alt="User's card">
+
+          <p>Карта: <span id="userCard"></span></p>
+          <p>Рахунок: <span id="userScore"></span></p>
+        </div>
+      </div>
+      <div id="computernamediw">
+        <h2>Комп'ютер</h2>
+        <div id="computer">
+
+          <img id="computerCardImage" src="зад.png" alt="Computer's card">
+
+          <p>Карта: <span id="computerCard"></span></p>
+          <p>Рахунок: <span id="computerScore"></span></p>
+        </div>
+      </div>
+  </div>
+  <p id="whoWin"></p>
+  <button id="playButton" onclick="playGame()">Грати</button>
+  <button id="resetButton" onclick="resetGame()">Почати знову</button>
+</body>
+<script src="./javaScript.js"></script>
+</html>
